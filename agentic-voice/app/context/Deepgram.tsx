@@ -33,7 +33,6 @@ interface DeepgramContextInterface {
 }
 
 const DeepgramContext = createContext({} as DeepgramContext);
-
 const DEFAULT_TTS_MODEL = 'aura-asteria-en';
 const DEFAULT_STT_MODEL = 'nova-2';
 
