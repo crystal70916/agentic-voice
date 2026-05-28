@@ -14,7 +14,6 @@ export const AgentAvatar = ({
 }) => {
   const { audioStore } = useAudioStore();
   const { messageData } = useMessageData();
-
   const foundAudio = audioStore.findLast((item) => item.id === message.id);
   const foundData = messageData.findLast((item) => item.id === message.id);
 
